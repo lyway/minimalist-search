@@ -2,19 +2,18 @@
 <!--
     Copyright 2020 Holger https://holger.net.cn Under GPLv3.0 @ https://github.com/holgerhuo/minimalist-search
 -->
-<html lang="en-US">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <!--begin seo-->
-    <meta name="copyright" content="©️ 2020 Holger GPLv3.0">
-    <meta name="author" content="Holger" />
+    <meta name="author" content="小虫子" />
     <title>小虫子轻量起始页plus【右侧带隐藏标签】</title>
-    <meta name="keywords" content="Holger,Holger's Blog,aggregator,index,homepage,start,开始界面,网站聚合,主页,网址大全,网址导航">
-    <meta name="description" content="Minimalist Search - A clean, simple, comprehensive homepage for everyone! With all common sites hidden in sidebar, fully customized quick navigation, choose your favorite search engine, and dark-mode ready!">
+    <meta name="keywords" content="自用导航页,自定义,index,homepage,start,开始界面,网站聚合,主页,网址大全,网址导航">
+    <meta name="description" content="一个纯HTML+CSS+JS的极简起始页自用导航，可定义多个搜索引擎，自由添加和编辑主页及侧栏快捷方式，兼容手机浏览器!">
     <!-- / FB Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://i.holger.net.cn">
-    <meta property="og:title" content="Minimalist Search - A homepage for everyone">
+    <meta property="og:url" content="https://xcz.plus">
+    <meta property="og:title" content="小虫子轻量起始页plus【右侧带隐藏标签】">
     <meta property="og:description" content="Minimalist Search - A clean, simple, comprehensive homepage for everyone! With all common sites hidden in sidebar, fully customized quick navigation, choose your favorite search engine, and dark-mode ready!">
     <meta property="og:image" content="./static/images/avatar.png">
     <meta property="og:site_name" content="Minimalist Search - A homepage with all websites you want!">
@@ -56,23 +55,6 @@
     <!--load sw.js end-->
     <!-- analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GP2P9TXKQ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-2GP2P9TXKQ');
-    </script>
-    <script async>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?02764abec014df97eed8a885ec5204de";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>   
     <!-- analytics end-->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="Cache-Control"  content="no-transform" />
@@ -296,7 +278,7 @@
                         <!--搜索引擎设置-->
                         <div class="set_blocks">
                             <div class="set_blocks_title">
-                                Search Engines
+                                搜索引擎
                             </div>
                             <div class="set_blocks_content">
                                 <div class="se_list">
@@ -326,34 +308,34 @@
                                     </table>
                                 </div>
                                 <div class="se_add_preinstall">
-                                    <button class="set_se_list_add"><span class="icon iconfont icontianjia"></span>Add new</button>
-                                    <button class="set_se_list_preinstall"><span class="icon iconfont iconjinggao"></span>Reset</button>
+                                    <button class="set_se_list_add"><span class="icon iconfont icontianjia"></span>新增</button>
+                                    <button class="set_se_list_preinstall"><span class="icon iconfont iconjinggao"></span>重置</button>
                                 </div>
                                 <div class="add_content se_add_content" style="display:none;">
                                     <div class="from_items">
-                                        <p><b>Sequence:</b></p>
+                                        <p><b>顺序:</b></p>
                                         <input type="hidden" name="key_inhere">
                                         <input type="number" name="key" placeholder="A valid number">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Name:</b></p>
+                                        <p><b>名称:</b></p>
                                         <input type="text" name="title" placeholder="Name">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>URL</b></p>
-                                        <input type="url" name="url" placeholder="Begin with https://">
+                                        <p><b>网址</b></p>
+                                        <input type="url" name="url" placeholder="以“https:”或“http:”开头的URL">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Query</b></p>
-                                        <input type="text" name="name" placeholder="Queries after ?">
+                                        <p><b>搜索字段名</b></p>
+                                        <input type="text" name="name" placeholder="URL中“?”后的字段">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Icon</b></p>
+                                        <p><b>图标</b></p>
                                         <input type="text" name="img" placeholder="Img URL">
                                     </div>
                                     <div class="from_items button">
-                                        <button class="se_add_save">Save</button>
-                                        <button class="se_add_cancel">Cancel</button>
+                                        <button class="se_add_save">保存</button>
+                                        <button class="se_add_cancel">取消</button>
                                     </div>
                                 </div>
                             </div>
@@ -362,14 +344,14 @@
                         <!--快捷方式设置-->
                         <div class="set_blocks">
                             <div class="set_blocks_title">
-                                Shortcuts
+                                快捷方式
                             </div>
                             <div class="set_blocks_content">
                                 <div class="quick_list">
                                     <table class="quick_list_table">
                                         <tr>
                                             <td>1.&nbsp;</td>
-                                            <td>Holger's Blog</td>
+                                            <td>知乎</td>
                                             <td>
                                                 <button class="edit_quick" value="1"><span class="iconfont iconbook-edit"></span></button>
                                                 &nbsp;
@@ -378,7 +360,7 @@
                                         </tr>
                                         <tr>
                                             <td>2.&nbsp;</td>
-                                            <td>Notre Monde</td>
+                                            <td>哔哩哔哩</td>
                                             <td>
                                                 <button class="edit_quick" value="2"><span class="iconfont iconbook-edit"></span></button>
                                                 &nbsp;
@@ -388,30 +370,30 @@
                                     </table>
                                 </div>
                                 <div class="se_add_preinstall">
-                                    <button class="set_quick_list_add"><span class="icon iconfont icontianjia"></span>Add new</button>
-                                    <button class="set_quick_list_preinstall"><span class="icon iconfont iconjinggao"></span>Reset</button>
+                                    <button class="set_quick_list_add"><span class="icon iconfont icontianjia"></span>新增</button>
+                                    <button class="set_quick_list_preinstall"><span class="icon iconfont iconjinggao"></span>重置</button>
                                 </div>
                                 <div class="add_content quick_add_content" style="display:none;">
                                     <div class="from_items">
-                                        <p><b>Sequence:</b></p>
+                                        <p><b>顺序:</b></p>
                                         <input type="hidden" name="key_inhere">
                                         <input type="number" name="key" placeholder="A valid number">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Name:</b></p>
+                                        <p><b>名称:</b></p>
                                         <input type="text" name="title" placeholder="Name">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>URL:</b></p>
-                                        <input type="url" name="url" placeholder="Begin with https://">
+                                        <p><b>网址:</b></p>
+                                        <input type="url" name="url" placeholder="以“https:”或“http:”开头的URL">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Icon:</b></p>
+                                        <p><b>图标:</b></p>
                                         <input type="text" name="img" placeholder="Img URL">
                                     </div>
                                     <div class="from_items button">
-                                        <button class="quick_add_save">Save</button>
-                                        <button class="quick_add_cancel">Cancel</button>
+                                        <button class="quick_add_save">保存</button>
+                                        <button class="quick_add_cancel">取消</button>
                                     </div>
                                 </div>
                             </div>
@@ -455,21 +437,30 @@
         <div class="con">
            <div class="shlogo"></div>
             <div class="sou">
-                <form target="_blank" class="search" action="https://www.google.com/search">
-                    <img class="se" src="static/icon/google_1.png" title="Switch"></img>
-                    <input id="search_placeholder" class="wd" type="text" name="wd" placeholder="My life is all about you~">
+                <form target="_blank" class="search" action="https://www.baidu.com/s">
+                    <img class="se" src="static/icon/baidu.ico" title="点击切换搜索引擎"></img>
+                    <input id="wd" class="wd" type="text" name="wd" placeholder="请输入搜索内容">
                     <button class="s">
                         <i style="font-size: 20px;" class="iconfont icon-sousuo"></i>
                     </button>
                 </form>
+				    <!--使用Google作为首选搜索的代码
+                <form target="_blank" class="search" action="https://www.google.com/search">
+                    <img class="se" src="static/icon/google_1.png" title="点击切换搜索引擎"></img>
+                    <input id="search_placeholder" class="wd" type="text" name="wd" placeholder="请输入搜索内容">
+                    <button class="s">
+                        <i style="font-size: 20px;" class="iconfont icon-sousuo"></i>
+                    </button>
+                </form> 
+				-->
                 <div class="search-engine" style="display: none;">
                     <div class="search-engine-head">
-                        <strong class="search-engine-tit">Select Search Engine</strong>
+                        <strong class="search-engine-tit">选择搜索引擎</strong>
                     </div>
                     <ul class="search-engine-list">
                          <li class="se-li" url="https://www.baidu.com/s" name="wd" img="static/icon/baidu.ico"><img src="static/icon/baidu.ico"></img>百度</li>
                          <li class="se-li" url="https://www.google.com/search" name="q" img="static/icon/google_1.png"><img src="static/icon/google_1.png"></img>Google</li>
-                         <li class="se-li" url="https://cn.bing.com/search" name="q" img="static/icon/bing.ico"><img src="static/icon/bing.ico"></img>Bing CN</li>
+                         <li class="se-li" url="https://cn.bing.com/search" name="q" img="static/icon/bing.ico"><img src="static/icon/bing.ico"></img>必应</li>
                          <li class="se-li" url="https://www.dogedoge.com/results" name="q" img="static/icon/doge_ico.png"><img src="static/icon/doge_ico.png"></img>多吉</li>
                          <li class="se-li" url="https://mijisou.com" name="q" img="static/icon/mijisou.png"><img src="static/icon/mijisou.png"></img>秘迹</li>
                          <li class="se-li" url="https://seeres.com/search" name="q" img="static/icon/seeres.png"><img src="static/icon/seeres.png"></img>seeres*</li>
@@ -477,34 +468,34 @@
                 </div>
                 <div class="quick-div">
                     <ul class="quick-ul">
-                        <li class="quick" data-s="bilibili" target="_blank" title="Holger's Blog">
-                            <a target=_blank href="https://blog.holger.net.cn">
-                                <i style="background-image: url(./static/images/avatar-300x300.webp);"></i>
-                                Blog
+                        <li class="quick" data-s="zhihu" target="_blank" title="知乎">
+                            <a target=_blank href="https://www.zhihu.com/">
+                                <i style="background-image: url(https://static.zhihu.com/favicon.ico);"></i>
+                                知乎
                             </a>
                         </li>
-                        <li class="quick" data-s="github" target="_blank" title="Island">
+                        <li class="quick" data-s="bilibili" target="_blank" title="哔哩哔哩">
                             <a target=_blank href="https://mast.dragon-fly.club/">
-                                <i style="background-image: url(https://mast.dragon-fly.club/favicon.ico);"></i>
-                                SNS
+                                <i style="background-image: url(./static/icon/bilibili.png);"></i>
+                                哔哩哔哩
                             </a>
                         </li>
-                        <li class="quick" data-s="scp" target="_blank" title="GitHub">
+                        <li class="quick" data-s="github" target="_blank" title="GitHub">
                             <a target=_blank rel="nofollow" href="https://github.com">
                                 <i style="background-image: url(static/icon/github.ico);"></i>
                                 GitHub
                             </a>
                         </li>
-                        <li class="quick" data-s="v2ex" target="_blank" title="V2EX">
-                            <a rel="nofollow" href="https://www.v2ex.com/">
-                                <i style="background-image: url(static/icon/v2ex.png);"></i>
-                                V2EX
+                        <li class="quick" data-s="LOC" target="_blank" title="hostLOC">
+                            <a rel="nofollow" href="https://hostloc.com/forum-45-1.html">
+                                <i style="background-image: url(static/icon/loc.png);"></i>
+                                LOC
                             </a>
                         </li>
-                        <li class="quick" data-s="steam" target="_blank" title="Steam">
-                            <a target=_blank rel="nofollow" href="https://store.steampowered.com/">
-                                <i style="background-image: url(static/icon/steam.ico);"></i>
-                                Steam
+                        <li class="quick" data-s="cnbeta" target="_blank" title="cnBeta">
+                            <a target=_blank rel="nofollow" href="https://www.cnbeta.com/">
+                                <i style="background-image: url(static/icon/cnbeta.ico);"></i>
+                                cnBeta
                             </a>
                         </li>
                     </ul>

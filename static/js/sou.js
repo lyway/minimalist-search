@@ -66,7 +66,7 @@ $(document).ready(function() {
     var quick_list_preinstall = {
         '1':{
             title   :"cnBeta",
-            url     :"https://www.cnbeta.com/",
+            url     :"https://cnbeta.com/",
             img     :"./static/icon/cnbeta.ico",
             explain :"cnBeta",
         },

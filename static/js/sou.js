@@ -19,18 +19,18 @@ $(document).ready(function() {
     var se_list_preinstall = {
         '1':{
             id      :1,
+            title   :"百度",
+            url     :"https://www.baidu.com/s",
+            name    :"wd",
+            img     :"./static/icon/baidu.ico",
+        },
+        '2':{
+            id      :2,
             title   :"Google",
             url     :"https://www.google.com/search",
             name    :"q",
             img     :"./static/icon/google_1.png",
 
-        },
-        '2':{
-            id      :2,
-            title   :"百度",
-            url     :"https://www.baidu.com/s",
-            name    :"wd",
-            img     :"./static/icon/baidu.ico",
         },
         '3':{
             id      :3,
@@ -65,29 +65,29 @@ $(document).ready(function() {
     //主页快捷方式【预设】
     var quick_list_preinstall = {
         '1':{
-            title   :"Blog",
-            url     :"https://blog.holger.net.cn/",
-            img     :"https://i.holger.net.cn/static/images/avatar-300x300.webp",
-            explain :"Holger's Blog",
+            title   :"cnBeta",
+            url     :"https://www.cnbeta.com/",
+            img     :"./static/icon/cnbeta.ico",
+            explain :"cnBeta",
         },
         '2':{
-            title   :"Island",
-            url     :"https://mast.dragon-fly.club",
-            img     :"https://mast.dragon-fly.club/favicon.ico",
-            explain :"Island 岛屿 | 一座属于你的岛屿",
+            title   :"知乎",
+            url     :"https://www.zhihu.com/",
+            img     :"https://static.zhihu.com/favicon.ico",
+            explain :"知乎",
 
         },
         '3':{
-            title   :"V2EX",
-            url     :"https://www.v2ex.com/",
-            img     :"./static/icon/v2ex.png",
-            explain :"V2EX",
+            title   :"哔哩哔哩",
+            url     :"https://www.bilibili.com/",
+            img     :"./static/icon/bilibili.png",
+            explain :"哔哩哔哩",
         },
         '4':{
-            title   :"Steam",
-            url     :"https://store.steampowered.com/",
-            img     :"./static/icon/steam.ico",
-            explain :"Steam",
+            title   :"LOC",
+            url     :"https://hostloc.com/forum-45-1.html",
+            img     :"./static/icon/loc.png",
+            explain :"hostLOC|全球主机交流论坛",
         },
         '5':{
             title   :"GitHub",

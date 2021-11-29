@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2972460 */
-  src: url('iconfont.woff2?t=1638160715569') format('woff2'),
-       url('iconfont.woff?t=1638160715569') format('woff'),
-       url('iconfont.ttf?t=1638160715569') format('truetype');
+  src: url('iconfont.woff2?t=1638161288504') format('woff2'),
+       url('iconfont.woff?t=1638161288504') format('woff'),
+       url('iconfont.ttf?t=1638161288504') format('truetype');
 }
 
 .iconfont {
@@ -13,8 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-jingdongicon-:before {
-  content: "\e63e";
+.icon-jingdong-:before {
+  content: "\e643";
 }
 
 .icon-mail_163:before {

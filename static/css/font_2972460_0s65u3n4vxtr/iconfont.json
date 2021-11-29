@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "22437208",
+      "name": "mail_163",
+      "font_class": "mail_163",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
       "icon_id": "902571",
       "name": "精选特卖",
       "font_class": "temai",

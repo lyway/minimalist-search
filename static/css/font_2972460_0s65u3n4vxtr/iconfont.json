@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "11098078",
+      "name": "京东icon-01",
+      "font_class": "jingdongicon-",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
       "icon_id": "22437208",
       "name": "mail_163",
       "font_class": "mail_163",

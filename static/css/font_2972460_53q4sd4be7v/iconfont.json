@@ -1,0 +1,23 @@
+{
+  "id": "2972460",
+  "name": "xcz",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "902571",
+      "name": "精选特卖",
+      "font_class": "icon",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "1988572",
+      "name": "icon-weixin",
+      "font_class": "weixin",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    }
+  ]
+}
